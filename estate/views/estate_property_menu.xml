@@ -1,0 +1,5 @@
+<odoo>
+    <data>
+        <menuitem id="menu_estate_property" name="Estate Property" action="estate_property_action" sequence="10"/>:w
+    </data>
+</odoo>

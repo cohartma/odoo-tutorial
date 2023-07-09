@@ -1,5 +1,6 @@
 from odoo import fields, models
 
+
 class TestModel(models.Model):
     _name = "estate.property"
     _description = "This is a test description"
@@ -17,6 +18,6 @@ class TestModel(models.Model):
     garden = fields.Boolean()
     garden_area = fields.Integer()
     garden_orientation = fields.Selection(
-            string='Type',
-            selection=[('North', 'north'), ('South', 'south'), ('East', 'east'), ('West', 'west')],
-            help="testhelp")
+        string='Type',
+        selection=[('North', 'north'), ('South', 'south'), ('East', 'east'), ('West', 'west')],
+        help="testhelp")
